@@ -12,7 +12,8 @@ public class CasesLogin {
 			case 1:
 				break;
 			case 2:
-				
+				System.out.println("Insira o nome de usuário: ");
+				CriarUsuario.criaUsuario();
 				break;
 			case 3:
 				System.out.println("Até a próxima!");
