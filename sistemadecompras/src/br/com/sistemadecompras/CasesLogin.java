@@ -10,7 +10,17 @@ public class CasesLogin {
 			int opcaoSelecionada = inputOpcaoLogin.nextInt();
 			switch (opcaoSelecionada) {
 			case 1:
+				break;
+			case 2:
 				
+				break;
+			case 3:
+				System.out.println("Até a próxima!");
+				break;
+				default:
+					System.out.println("Opção inválida. Digite uma das opções abaixo:");
+					OpcoesLogin.opcoesDeLogin();
+					break;
 			}
 			
 		} catch (InputMismatchException e) {
