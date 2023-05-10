@@ -18,6 +18,8 @@ public class ListaUsuarios {
 			CasesLogin.casesDeLogin();
 		} else {
 			adicionaUsuario(novoUsuario);
+			System.out.println("Insira uma nova senha: ");
+			CriarSenha.criaSenha();
 		}
 	}
 
