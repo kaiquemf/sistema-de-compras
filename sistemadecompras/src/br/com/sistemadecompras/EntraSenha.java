@@ -8,6 +8,7 @@ public class EntraSenha {
 	static void entradaSenha() {
 		String novaEntradaSenha = inputEntradaSenha.nextLine();
 		if (ListaSenhas.listaDeSenhas.contains(novaEntradaSenha)) {
+			System.out.println("Usuário logado com sucesso, o que deseja fazer agora? ");
 			
 		} else {
 			System.out.println("Por favor, insira uma senha válida");
