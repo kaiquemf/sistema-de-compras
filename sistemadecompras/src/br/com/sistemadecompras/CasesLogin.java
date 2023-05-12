@@ -10,6 +10,7 @@ public class CasesLogin {
 			int opcaoSelecionada = inputOpcaoLogin.nextInt();
 			switch (opcaoSelecionada) {
 			case 1:
+				System.out.println("ainda não dá");
 				break;
 			case 2:
 				System.out.println("Insira o nome de usuário: ");
