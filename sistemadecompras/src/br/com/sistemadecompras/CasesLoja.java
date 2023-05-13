@@ -25,7 +25,7 @@ public class CasesLoja {
 				CasesLogin.casesDeLogin();
 				break;
 			case 5:
-				System.out.println("Orbigado, volte sempre!");
+				System.out.println("Obrigado, volte sempre!");
 				break;
 			default:
 				System.out.println("Selecione uma das opções válidas: ");
