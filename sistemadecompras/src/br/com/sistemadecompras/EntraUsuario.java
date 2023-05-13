@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class EntraUsuario {
 	static Scanner inputEntradaUsuario = new Scanner(System.in);
 
-	static void entraUsuarios() {
+	static String entraUsuarios() {
 		System.out.println("Digite o nome de usuário: ");
 
 		String novaEntradaUsuario = inputEntradaUsuario.nextLine();
@@ -16,5 +16,7 @@ public class EntraUsuario {
 			System.out.println("Por favor, insira um nome de usuário válido: ");
 			entraUsuarios();
 		}
+		System.out.println(novaEntradaUsuario);
+		return novaEntradaUsuario;
 	}
 }

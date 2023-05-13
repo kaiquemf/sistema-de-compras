@@ -12,10 +12,12 @@ public class CasesLoja {
 			
 			switch (pesquisaLoja) {
 			case 1:
+				PesquisaItens.pesquisaDeItens();
 				break;
 			case 2:
 				break;
 			case 3:
+				Carrinho.imprimeCarrinho();
 				break;
 			case 4:
 				System.out.println("Entre ou crie uma nova conta: ");
