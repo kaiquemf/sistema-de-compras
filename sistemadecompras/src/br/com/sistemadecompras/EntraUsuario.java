@@ -16,7 +16,6 @@ public class EntraUsuario {
 			System.out.println("Por favor, insira um nome de usuário válido: ");
 			entraUsuarios();
 		}
-		System.out.println(novaEntradaUsuario);
 		return novaEntradaUsuario;
 	}
 }

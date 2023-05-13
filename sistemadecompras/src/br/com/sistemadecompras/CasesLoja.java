@@ -15,6 +15,9 @@ public class CasesLoja {
 				PesquisaItens.pesquisaDeItens();
 				break;
 			case 2:
+				Produtos.consultaProdutos();
+				System.out.println("O que deseja fazer agora?");
+				casesDaLoja();
 				break;
 			case 3:
 				Carrinho.imprimeCarrinho();
