@@ -72,6 +72,7 @@ public class Produtos {
 		if (produtoEncontrado != null) {
 			System.out.println("Produto encontrado!");
 			if (produtoEncontrado.isDisponibilidadeProduto()) {
+				String novaEntradaUsuario = EntraUsuario.inputEntradaUsuario.toString();
 				Carrinho.adicionaCarrinho(novaEntradaUsuario , produtoEncontrado);
 				System.out.println("O produto foi adicionado a sua lista e ainda tem "
 						+ produtoEncontrado.getQuantidadeDeProdutos() + " unidades restantes em estoque!");

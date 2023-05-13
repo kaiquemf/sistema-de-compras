@@ -14,7 +14,7 @@ public class Carrinho {
 			String novaEntradaUsuarios = entry.getKey();
 			Produtos novaEntradaProdutos = entry.getValue();
 			
-			System.out.println(novaEntradaUsuarios + novaEntradaProdutos);
+			System.out.println(novaEntradaProdutos.toString());
 		}
 	}
 }
